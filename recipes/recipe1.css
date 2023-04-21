@@ -1,0 +1,82 @@
+/* Global Styles */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+/* Header Styles */
+h1 {
+    margin: 0;
+    font-size: 36px;
+    color: #333;
+}
+
+/* Image Styles */
+img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+}
+
+/* Main Content Styles */
+h2 {
+    font-size: 24px;
+    color: #333;
+}
+
+p {
+    margin-bottom: 20px;
+}
+
+ul,
+ol {
+    margin-bottom: 20px;
+}
+
+li {
+    margin-left: 20px;
+}
+
+a {
+    color: #333;
+    text-decoration: none;
+    border-bottom: 1px solid #333;
+}
+
+a:hover {
+    background-color: #333;
+    color: #fff;
+}
+
+/* Media Query for Responsive Design */
+@media (max-width: 768px) {
+    h1 {
+        font-size: 24px;
+    }
+
+    img {
+        margin-bottom: 10px;
+    }
+
+    h2 {
+        font-size: 20px;
+    }
+
+    p {
+        font-size: 14px;
+        margin-bottom: 10px;
+    }
+
+    ul,
+    ol {
+        font-size: 14px;
+        margin-bottom: 10px;
+    }
+
+    li {
+        margin-left: 10px;
+    }
+}
