@@ -1,0 +1,177 @@
+/* Reset styles */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/* Global styles */
+body {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+a {
+    color: #333;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+ul,
+ol {
+    margin-left: 20px;
+}
+
+header {
+    background-color: #f97e7e;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header h1 {
+    font-size: 36px;
+    font-weight: bold;
+    color: #fff;
+    margin-right: 20px;
+}
+
+header img {
+    max-width: 100%;
+}
+
+nav {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav li {
+    margin-left: 20px;
+}
+
+nav a {
+    color: #fff;
+    text-transform: uppercase;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+main {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.featured-recipe {
+    max-width: 800px;
+    margin-bottom: 40px;
+}
+
+.featured-recipe img {
+    max-width: 100%;
+    margin-bottom: 20px;
+}
+
+.featured-recipe h2 {
+    font-size: 28px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.featured-recipe p {
+    line-height: 1.5;
+    margin-bottom: 20px;
+}
+
+.featured-recipe a {
+    color: #f97e7e;
+    font-weight: bold;
+}
+
+.featured-recipe a:hover {
+    text-decoration: underline;
+}
+
+.featured-recipe ul {
+    list-style: none;
+    margin-bottom: 20px;
+}
+
+.featured-recipe li {
+    line-height: 1.5;
+}
+
+.recipe-categories {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 40px;
+}
+
+.recipe-categories a {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    width: 200px;
+    height: 200px;
+    background-color: #f2f2f2;
+    margin-right: 20px;
+    text-decoration: none;
+    color: #333;
+}
+
+.recipe-categories a:hover {
+    background-color: #e0e0e0;
+}
+
+.recipe-categories img {
+    max-width: 100%;
+    margin-bottom: 10px;
+}
+
+.recipe-categories h3 {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.recipe-categories p {
+    line-height: 1.5;
+}
+
+.source {
+    text-align: center;
+    font-style: italic;
+    margin-top: 20px;
+    color: #666;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+footer p {
+    margin: 0;
+}
