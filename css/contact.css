@@ -54,6 +54,9 @@
     margin-left: 20px;
   }
   /*End of Header*/
+  .contact-content{
+    padding: 20px;
+  }
   body{
     background-color: rgb(236, 252, 252);
   }
