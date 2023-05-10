@@ -35,3 +35,15 @@
 .button:hover {
   background-color: #f01d1d;
 }
+
+.search-container {
+  text-align: center;
+}
+
+.search-container form {
+  display: inline-block;
+}
+
+.search-container label {
+  display: block;
+}
