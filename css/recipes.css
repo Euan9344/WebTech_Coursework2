@@ -1,35 +1,31 @@
-  main {
-    background-color: rgb(236, 252, 252);
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding: 50px;
-  }
+.button-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10%;
+}
 
-  .source {
-    text-align: center;
-    font-style: italic;
-    margin-top: 20px;
-    color: #666;
-  }
+.button {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0 10px;
+}
 
-  .recipe-container {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: flex-start;
-  }
+.button img {
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+}
 
-  .image-container {
-    flex: 1 30px;
-    margin-right: 20px;
-  }
-
-  .description-container {
-    flex: 1 30px;
-    margin-right: 20px;
-  }
-
-  .steps-container {
-    flex: 1 30px;
-  }
+.button span {
+  margin-top: 10px;
+  font-weight: bold;
+  font-size: 20px;
+  color: #f97e7e;
+}
