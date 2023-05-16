@@ -4,12 +4,12 @@
     randomRecipeButton.addEventListener("click", function() {
     // Array of recipe links/paths
     var recipes = [
-        "./Recipes/Breakfasts/breakfastMuffin.html",
-        "./Recipes/Breakfasts/ulsterFry.html",
-        "./Recipes/Desserts/moltencakes.html",
-        "./Recipes/Desserts/profiteroles.html",
-        "./Recipes/Dinners/airfryChicken.html",
-        "./Recipes/Dinners/salmon.html"
+        "./HTML/Recipes/Breakfasts/breakfastMuffin.html",
+        "./HTML/Recipes/Breakfasts/ulsterFry.html",
+        "./HTML/Recipes/Desserts/moltencakes.html",
+        "./HTML/Recipes/Desserts/profiteroles.html",
+        "./HTML/Recipes/Dinners/airfryChicken.html",
+        "./HTML/Recipes/Dinners/salmon.html"
     ];
     // Generate a random index based on the array length
     var randomIndex = Math.floor(Math.random() * recipes.length);
