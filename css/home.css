@@ -3,6 +3,10 @@
   padding: 20px;
 }
 
+body {
+  background-color: rgb(236, 252, 252);
+}
+
 .page-content {
   margin-bottom: 40px;
   text-align: center;
@@ -18,7 +22,8 @@
   justify-content: center;
 }
 
-.button {
+.button,
+#random-recipe-button {
   display: inline-block;
   padding: 20px 40px;
   background-color: #f97e7e;
@@ -31,7 +36,10 @@
   margin: 20px;
 }
 
-.button:hover {
+#random-recipe-button {}
+
+.button:hover,
+#random-recipe-button:hover {
   background-color: #f01d1d;
 }
 

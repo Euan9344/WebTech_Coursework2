@@ -5,6 +5,10 @@
   padding: 10%;
 }
 
+body {
+  background-color: rgb(236, 252, 252);
+}
+
 .button {
   display: flex;
   flex-direction: column;
