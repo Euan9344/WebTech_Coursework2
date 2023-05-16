@@ -1,25 +1,22 @@
-// Get the button element
-var randomRecipeButton = document.getElementById("random-recipe-button");
-
-// Add event listener to the button
-randomRecipeButton.addEventListener("click", function() {
-    // Generate a random number within a range (adjust the range as needed)
-    var randomNumber = Math.floor(Math.random() * 3) + 1;
-
-    // Create an array of URLs
+    // Selects button ID
+    var randomRecipeButton = document.getElementById("random-recipe-button");
+    //Event listener waiting for Button to be click to activate script
+    randomRecipeButton.addEventListener("click", function() {
+  
+    // Array of recipe links/paths
     var recipes = [
-        "breakfastMuffin.html",
-        "ulsterFry.html",
-        "moltencakes.html",
-        "profiteroles.html",
-        "airfryChicken.html",
-        "contact.html"
+        "./Recipes/Breakfasts/breakfastMuffin.html",
+        "./Recipes/Breakfasts/ulsterFry.html",
+        "./Recipes/Desserts/moltencakes.html",
+        "./Recipes/Desserts/profiteroles.html",
+        "./Recipes/Dinners/airfryChicken.html",
+        "./Recipes/Dinners/salmon.html"
     ];
 
     // Generate a random index based on the array length
     var randomIndex = Math.floor(Math.random() * recipes.length);
 
-    // Get the random URL
+    // Gets the random recipe page
     var randomRecipe = recipes[randomIndex];
 
     // Redirect the user to the random URL
