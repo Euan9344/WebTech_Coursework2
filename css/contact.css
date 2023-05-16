@@ -1,7 +1,18 @@
 .contact-content {
   padding: 20px;
+  text-align: center;
 }
 
 body {
   background-color: rgb(236, 252, 252);
+}
+
+.contact-content h2 {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.contact-content p {
+  line-height: 1.5;
 }

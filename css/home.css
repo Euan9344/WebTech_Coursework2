@@ -36,8 +36,6 @@ body {
   margin: 20px;
 }
 
-#random-recipe-button {}
-
 .button:hover,
 #random-recipe-button:hover {
   background-color: #f01d1d;

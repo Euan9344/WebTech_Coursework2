@@ -2,6 +2,11 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    padding: 10%;
+}
+
+body {
+    background-color: rgb(236, 252, 252);
 }
 
 .button {
@@ -12,13 +17,19 @@
 }
 
 .button img {
-    width: 100px;
-    height: 100px;
+    width: 200px;
+    height: 200px;
     object-fit: cover;
     border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
 }
 
 .button span {
     margin-top: 10px;
     font-weight: bold;
+    font-size: 20px;
+    color: #f97e7e;
 }
